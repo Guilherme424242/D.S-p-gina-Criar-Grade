@@ -57,19 +57,20 @@ body{
 
 .parada-de-baixo{
   display: flex;
-  
   border: 2px solid black;
   background-color: white;
   padding: 15px;
   border-radius: 20px;
 }
 
+.bottom-part{
+  display: flex;
+  justify-content: center;
+}
+
 .grade-preview{
-  position: absolute;
-  left: 500px;
-  right: 500px;
-  background-color: white;
-  position: absolute;  
+  width: 45%;
+  background-color: white;  
   height:225px;
   border-radius: 20px;
   border: 1px solid black;
