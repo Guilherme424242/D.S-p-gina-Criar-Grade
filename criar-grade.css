@@ -12,8 +12,14 @@ body{
   font-weight: 600;
   font-size: 30px;
   color: rgba(193, 42, 42, 1);
-  margin-bottom: 30px
-  ;
+}
+.grade-mais{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .icone-sair{
+  cursor:pointer;
 }
 
 .titulo{
@@ -39,7 +45,8 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 50px;
   row-gap:50px;
-  padding: 50px 50px;  
+  padding: 50px 50px; 
+  
 }
 
 .configurações{
@@ -57,11 +64,23 @@ body{
 
 .parada-de-baixo{
   display: flex;
+  align-items:center;
+  justify-content: start;
   border: 2px solid black;
   background-color: white;
   padding: 15px;
   border-radius: 20px;
 }
+.parada-de-baixo button{
+  border:none;
+  background-color: white;
+  padding-right:10px;
+  padding-top:4px;
+}
+.parada-de-baixo .lupa{
+  cursor:pointer;
+}
+
 
 .bottom-part{
   display: flex;
@@ -96,7 +115,7 @@ body{
 .cadastrar{
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  margin-top: 20px;
 }
 .cadastrar button{
   padding: 15px 50px ;
@@ -107,6 +126,13 @@ body{
   font-weight: 700;
   font-size: 16px;
   border-radius: 25px;
-
-
+  cursor: pointer;
+  transition:background-color 0.2s, color 0.2s;
+}
+.cadastrar button:hover{
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.cadastrar button:active{
+  color: rgba(193, 42, 42, 0.99) ;
+  background-color: rgb(241, 241, 241);
 }
