@@ -1,107 +1,101 @@
-body{
-  font-family:inter ,arial;
+body {
+  font-family: inter, arial;
   padding: 0 40px;
-
 }
-.header{
-  display:flex;
-  justify-content:space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 30px 0px;
-  font-family:K2D, Arial;
+  font-family: K2D, Arial;
   font-weight: 600;
   font-size: 30px;
   color: rgba(193, 42, 42, 1);
 }
-.grade-mais{
+.grade-mais {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.header .icone-sair{
-  cursor:pointer;
+.header .icone-sair {
+  cursor: pointer;
 }
 
-.titulo{
-  display:flex;
+.titulo {
+  display: flex;
   justify-content: center;
   font-size: 35px;
   font-weight: 800;
   color: rgba(193, 42, 42, 1);
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
-.grade-box{
-  position:relative;
+.grade-box {
+  position: relative;
   height: 600px;
   background-color: lightgrey;
   border-radius: 16px;
-  box-shadow:0 0 5px rgba(0, 0, 0, 0.6);
-  
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
 
-.configurações-grade{
-  display:grid;
+.configurações-grade {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 50px;
-  row-gap:50px;
-  padding: 50px 50px; 
-  
+  row-gap: 50px;
+  padding: 50px 50px;
 }
 
-.configurações{
-  border:none;
+.configurações {
+  border: none;
   padding: 14px 25px;
-  border-radius:20px;
-  font-family:inter ,arial;
+  border-radius: 20px;
+  font-family: inter, arial;
   font-size: 16px;
   background-color: rgba(193, 42, 42, 0.99);
-  color:white;
+  color: white;
   font-weight: 700;
-  text-align:center;
-  
+  text-align: center;
 }
 
-.parada-de-baixo{
+.parada-de-baixo {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: start;
   border: 2px solid black;
   background-color: white;
   padding: 15px;
   border-radius: 20px;
 }
-.parada-de-baixo button{
-  border:none;
+.parada-de-baixo button {
+  border: none;
   background-color: white;
-  padding-right:10px;
-  padding-top:4px;
+  padding-right: 10px;
+  padding-top: 4px;
 }
-.parada-de-baixo .lupa{
-  cursor:pointer;
+.parada-de-baixo .lupa {
+  cursor: pointer;
 }
 
-
-.bottom-part{
+.bottom-part {
   display: flex;
   justify-content: center;
 }
 
-.grade-preview{
+.grade-preview {
   width: 45%;
-  background-color: white;  
-  height:225px;
+  background-color: white;
+  height: 225px;
   border-radius: 26px;
   border: 1px solid black;
-  padding: 40px 0px 0px ;
-  
+  padding: 40px 0px 0px;
 }
 
-.materia{
+.materia {
   font-size: 26px;
   font-weight: 700;
   color: white;
-  background-color: rgba(193, 42, 42, 0.99) ;
+  background-color: rgba(193, 42, 42, 0.99);
   text-align: center;
   padding: 16px 0;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
@@ -112,27 +106,46 @@ body{
   font-size: 18px;
 }
 
-.cadastrar{
+.cadastrar {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
-.cadastrar button{
-  padding: 15px 50px ;
+.cadastrar button {
+  padding: 15px 50px;
   border: none;
-  background-color: rgba(193, 42, 42, 0.99) ;
+  background-color: rgba(193, 42, 42, 0.99);
   color: white;
-  font-family:inter ,arial;
+  font-family: inter, arial;
   font-weight: 700;
   font-size: 16px;
   border-radius: 25px;
   cursor: pointer;
-  transition:background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
 }
-.cadastrar button:hover{
+.cadastrar button:hover {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
-.cadastrar button:active{
-  color: rgba(193, 42, 42, 0.99) ;
+.cadastrar button:active {
+  color: rgba(193, 42, 42, 0.99);
   background-color: rgb(241, 241, 241);
+}
+
+.disciplina-adc{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 90px 0px 158px;
+}
+.disciplina-adc button{
+  border: none;
+  background-color:rgba(193, 42, 42, 0.99) ;
+  color: white;
+  font-family: inter, arial;
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius:30px;
+  font-weight: 700;
+  
+  
 }
